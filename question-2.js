@@ -4,3 +4,6 @@ const inventory = [
   { name: "Banana", price: 10, quantity: 50 },
 ];
 // เริ่มเขียนโค้ดตรงนี้
+inventory[0].quantity = 200;
+inventory.push ({name: "Orange", price: 20, quantity: 300});
+console.log(inventory) 
