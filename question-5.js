@@ -24,7 +24,7 @@ function calculateTotalPrice(products,promotionCode){
   let totalPrice = 0
   for(let i = 0 ; i < products.length; i++){
     totalPrice += products[i].price * products[i].quantity
-  }console.log(totalPrice)
+  }/* console.log(totalPrice) */
   if(promotionCode === "SALE50"){
     return totalPrice * (100 - 50) /100 
   }else if (promotionCode === "SALE20"){
